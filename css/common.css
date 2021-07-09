@@ -45,6 +45,7 @@
     font-style: normal;
     font-weight: 600;
 }
+
 @font-face {
     font-family: "mont";
     src: url("../fonts/Mont-Light.eot");
@@ -104,6 +105,7 @@ header.header {
     transition: .5s;
     animation-timing-function: ease-in-out;
 }
+
 .header__menu ul li a:hover {
     text-decoration: none;
     color: #A7D500;
@@ -306,7 +308,7 @@ h3:after {
 }
 
 .getfilebox {
-    max-width: 740px;
+    max-width: 650px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -339,13 +341,15 @@ h3:after {
 
 
 @-webkit-keyframes pulse1 {
-    
+
     0% {
         -webkit-box-shadow: 0 0 0 0 rgba(167, 213, 0, .5);
     }
+
     50% {
         -webkit-box-shadow: 0 0 0 20px rgba(167, 213, 0, 0);
     }
+
     100% {
         -webkit-box-shadow: 0 0 0 0 rgba(167, 213, 0, .5);
     }
@@ -355,9 +359,11 @@ h3:after {
     0% {
         -webkit-box-shadow: 0 0 0 0 rgba(167, 213, 0, .5);
     }
+
     50% {
         -webkit-box-shadow: 0 0 0 20px rgba(167, 213, 0, 0);
     }
+
     100% {
         -webkit-box-shadow: 0 0 0 0 rgba(167, 213, 0, .5);
     }
@@ -392,8 +398,8 @@ h3:after {
 }
 
 .getfilebox__descr p {
-    width: calc(100% - 97px);
-    padding-left: 40px;
+    width: 100%;
+    padding-left: 0;
     color: #fff;
     font-size: 26px;
     line-height: 33px;
@@ -531,11 +537,13 @@ footer.footer p {
 }
 
 .burger,
-.closemenu{
+.closemenu {
     display: none;
 }
 
-
+.getfilebox__descr img {
+    display: none;
+}
 
 
 
